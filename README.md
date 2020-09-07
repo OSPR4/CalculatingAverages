@@ -1,4 +1,5 @@
 # CalculatingAverages
+
 Console application that:
 1: Accept ten numbers between 0 and 100, and report their sum
 2: Average ten scores between 0 and 100, and report their average
