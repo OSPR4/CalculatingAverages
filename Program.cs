@@ -1,16 +1,9 @@
 ﻿/*
-Class:       ISTA 220 Programming Fundamentals in C#
-Student:     Osee Pierre
-Instructor:  Christine Lee
-Date:        07/18/20
 Description: Create a console application that:
              1: Accept ten numbers between 0 and 100, and report their sum
              2: Average ten scores between 0 and 100, and report their average
              3: Average a specific number of scores between 0 and 100, and report their average and letter grade
              4: Average a non-specific number of scores between 0 and 100, and report their average and letter grade
-Revised:     
-Revised by:  
-Revision:   
 */
 
 using System;
@@ -63,9 +56,7 @@ namespace CalculatingAverages
                     break;
 
                 Console.WriteLine();
-
             }
-
         }
 
         static void SumOfNums()
@@ -117,8 +108,6 @@ namespace CalculatingAverages
                 Console.WriteLine($"\nYour average for the 10 scores entered is : {average}\nLetter Grade: D");
             if (average >= 0 && average <= 59)
                 Console.WriteLine($"\nYour average for the 10 scores entered is : {average}\nLetter Grade: F");
-
-
         }
 
         static void AvgNumOfScores_Fixed()
@@ -165,8 +154,6 @@ namespace CalculatingAverages
             float total = 0;
             char response;
 
-
-
             while (true)
             {
                 Console.Write("Enter test score: ");
@@ -185,9 +172,6 @@ namespace CalculatingAverages
                 response = char.Parse(Console.ReadLine());
                 if (response == 'n' || response == 'N')
                     break;
-
-
-
             }
 
             average = total / limit;
